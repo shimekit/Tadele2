@@ -1,0 +1,140 @@
+body {
+    font-family: monospace;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    padding: 0 6rem;
+}
+
+header {
+    padding: 8px;
+}
+header > h1 {
+    text-align: center;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    transition: .3s;
+}
+header nav li a:hover, header nav li a.active {
+    background-color: #fff;
+    color: #000;
+}
+
+nav ul Li {
+    margin: 20px;
+    display: inline;
+    color: red (139, 19, 19);
+}
+
+header {
+    color: white;
+    background-color: blueviolet;
+    margin-bottom: 5px;
+}
+
+a:hover {
+    background-color: yellowgreen;
+    color: green;
+}
+
+h2 {
+    color: blue;
+}
+
+    table,
+    th,
+    td {
+        border: 1px solid rgb(189, 67, 67);
+    }
+
+
+footer {
+    background-color: rgb(228, 228, 228);
+    color: #000;
+    padding:  0 3rem;
+}
+
+.content-top {
+    display: flex;
+}
+.content-bottom {
+    background-color: rgb(36, 36, 36);
+    color: #fff;
+    padding: 1rem;
+}
+
+footer .footer-right, footer .footer-left {
+    flex: .5;
+}
+
+footer a, footer p {
+    color: #000;
+}
+
+.fa-location-arrow {
+    color: rgb(45, 156, 156);
+}
+.fa-phone {
+    color: rgb(94, 94, 94);
+}
+.fa-envelope {
+    color: rgb(252, 61, 61);
+}
+.fa-twitter {
+    color: rgb(66, 115, 250);
+}
+.fa-facebook {
+    color: rgb(30, 107, 207);
+}
+
+.contact-form {
+    padding: 3rem;
+    background-color: #ececec;
+    width: 50%;
+}
+.contact-form input, label, textarea {
+    display: block;
+    margin: .5rem;
+}
+.contact-form input, textarea {
+    padding: 1rem;
+    border: 1px solid #000;
+    width: 80%;
+}
+.contact-form button {
+    padding: 1rem 3rem;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.publition-single {
+    padding: 3rem;
+    border: 1px solid #000;
+    border-radius: 2px;
+    text-decoration: none;
+    color: #000;
+    transition: .3s;
+    margin-bottom: 3rem;
+}
+.pub-link {
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+}
+.publition-single:hover {
+    border-color: #6f12c7;
+    color: #6f12c7;
+}
+
+.dropdown .menu-list {
+    display: none;
+    background-color: red;
+}
