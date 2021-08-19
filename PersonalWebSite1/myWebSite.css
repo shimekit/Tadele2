@@ -4,22 +4,65 @@ body {
     margin: 0;
     padding: 0;
 }
-
 #wrapper {
-    padding: 0 6rem;
+  width: 100%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  #wrapper {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  #wrapper {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+ #wrapper {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  #wrapper {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  #wrapper {
+    max-width: 1320px;
+  }
 }
 
 header {
     padding: 8px;
 }
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
 header > h1 {
     text-align: center;
 }
-
+header nav ul {
+    width: 100%;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
 header nav li a {
     color: #fff;
     text-decoration: none;
-    padding: .5rem 1rem;
+    padding: 1rem 1rem;
     transition: .3s;
 }
 header nav li a:hover, header nav li a.active {
@@ -28,7 +71,7 @@ header nav li a:hover, header nav li a.active {
 }
 
 nav ul Li {
-    margin: 20px;
+    margin: 5px;
     display: inline;
     color: red (139, 19, 19);
 }
@@ -58,12 +101,20 @@ h2 {
 footer {
     background-color: rgb(228, 228, 228);
     color: #000;
-    padding:  0 3rem;
+    padding:  3rem;
+    max-width: 100%;
 }
 
 .content-top {
     display: flex;
 }
+
+@media (max-width: 768px) {
+    .content-top {
+        display: block;
+    }
+  }
+
 .content-bottom {
     background-color: rgb(36, 36, 36);
     color: #fff;
@@ -137,4 +188,25 @@ footer a, footer p {
 .dropdown .menu-list {
     display: none;
     background-color: red;
+    /*
+the following to  make my site responsive
+    */
+}
+.wrapper{
+   width: 100%; 
+}
+
+
+@media screen and (max-width: 500px) {
+    .social-link-wrap ul li {
+        font-size: 16px;
+        word-break: break-all;
+    }
+}
+pre {
+    word-break: break-all;
+}
+
+img {
+    max-width: 100%;
 }

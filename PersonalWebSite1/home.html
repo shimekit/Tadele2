@@ -1,18 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=decice-width, initial-scale=1">
+    <link rel="stylesheet" href="myWebSite.css">
 
-    <link href="myWebSite.css" type="text/css" rel="stylesheet">
-
-    <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="../fontawesome-free-5.15.4-web/css/all.css">
 </head>
 
 <body>
-
+    <style>
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: 0;
+            z-index: 999;
+            background-color: #fff;
+            padding: 1rem 0;
+            border-radius: 5px;
+        }
+    </style>
     <div id="wrapper">
         <header>
             <h1> welcome dear! </h1>
@@ -22,32 +32,49 @@
                     <ul class="main_menu">
                         <hr>
                         <li> <a href="index.html"> home </a> </li>
-                        <li> <a href="about.html"> about</a> </li>
-                        <li> <a class="active" href="education.html"> education</a> </li>
-                        <li> <a href="publications.html"> publications </a> </li>
+                        <li>
+                            <a class="active" href="about.html"> about </a>
+                            <div class="dropdown-menu">
+                        <li> <a href="education.html"> education </a> </li>
+                        <li> <a href="publications"> publications </a> </li>
                         <li> <a href="favorites.html"> favorites </a> </li>
-                        <li> <a href="contact.html"> contact </a> </li>
-
-                        <hr>
-                    </ul>
-                </nav>
             </div>
-        </header>
+            </li>
+            <li> <a href="education.html"> blog </a> </li>
+            <li> <a href="contact"> contact </a> </li>
 
-        <img width="200px" , height="300px" src="https://pbs.twimg.com/media/EngqOzIXMAA2f64.jpg" alt="" />
-        <br> <br>
-        <p>
-        molecular biology note for biology 3rd year students
-        <a href="https://www.austincc.edu/tav/1406powerptfrms.h:tm">click here</a>
+            <hr>
+            </ul>
+            </nav>
+    </div>
+    </header>
+
+
+    <img width="300px" src="forest.jpg" alt="" />
+
+
+    <p>
+        <br>
+        from this site you will find ...
+
     </p>
-        <footer>
+
+
+    <footer>
+        <div id="wrapper">
             <div class="content-top">
                 <div class="footer-left">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sapiente fugiat facere? Debitis,
-                        autem obcaecati assumenda enim consequuntur deserunt molestias dolore id architecto
-                        reprehenderit asperiores dignissimos magnam totam sunt necessitatibus?
-                    </p>
+                    <pre>
+                    feel free to contact me ...
+                    .
+                    .
+                    .
+                    I am happy to see you :)
+                    .
+                    .
+                    .
+                    keep in touch ...
+                </pre>
                 </div>
                 <div class="footer-right">
                     <div class="social-link-wrap">
@@ -70,16 +97,22 @@
                                 <i class="fab fa-facebook"></i> <a href="https://www.facebook.com/shimekit.tadele/"
                                     target="_blank">Facebook</a>
                             </li>
+                            <li>
+                                <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/feed/"
+                                    target="_blank">linkedin</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
 
             <div class="content-bottom">
-                Copy rights &copy; Shimekit Tadele
+                Copy right &copy; Shimekit Tadele 2021
             </div>
 
-        </footer>
+        </div>
+    </footer>
+
     </div>
 
 </body>

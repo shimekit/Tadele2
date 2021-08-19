@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html> 
+
+header, section, footer, aside, nav, main, article, figure 
+
+{  display: block; }
+
+</html>
